@@ -1,0 +1,307 @@
+/*
+Modified from:
+http://www.hdwallpapers.in/windows_xp_bliss-wallpapers.html
+*/
+.image-login {
+    background-image: url("images/login.png");
+    background-size: cover;
+
+}
+/*
+Modified from:
+http://www.hdwallpapers.in/windows_xp_bliss-wallpapers.html
+*/
+.image-main {
+    background-image: url("images/main.jpg");
+    background-size: cover;
+}
+/*
+Image from:
+http://www.collective-evolution.com/2014/12/07/research-shows-this-one-plant-can-kill-cancer-cells-treat-diabetes/
+*/
+.image-bitter {
+    /*background-image: url("images/bitter_melon.jpg");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+Image suppied by:
+http://www.public-domain-image.com/free-images/flora-plants/flowers/sunflowers-pictures/sunflowers-helianthus-annuus.jpg
+*/
+.image-logout {
+    background-image: url("images/logout.jpg");
+    background-size: cover;
+}
+
+/*
+Image supplied by:
+http://eatingatoz.com/category/days/b/
+*/
+
+.nav-btn-lpad {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.nav-btn-rpad {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+
+}
+
+/*
+Much of the CSS here was modified from "Bootstrap" by
+https://github.com/orgs/twbs/people
+http://getbootstrap.com/
+*/
+
+/*
+Colour on this page from "Forest Cathedral" by SkyBlue2u
+http://www.colourlovers.com/palette/631214/Forest_Cathedral */
+
+/*
+CSS modified from "Bootstrap Ghost Buttons" by Syed Fazle Rahman on:
+http://www.htmlxprs.com/post/50/bootstrap-ghost-buttons
+*/
+
+.ghost-btn {
+	background: transparent;
+	color: #3c763d;
+    font-weight: bold;
+    border-color: #3c763d;
+    border-width: solid;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.jumbo-pad{
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.nav-search-pad {
+    margin-top: 10px;
+}
+
+.text-indent {
+    margin-left: 45px;
+}
+
+.text-indent-sm {
+    margin-left: 10px;
+}
+
+.rivertxt {
+    color: #005E5F;
+}
+
+.skytxt {
+    color: #84E4CF;
+}
+
+.low-greentxt {
+    color: #4C9B46;
+}
+
+.high-greentxt {
+    color: #89E665;
+}
+
+form {
+    display: inline;
+}
+
+/*
+CSS modified from "10 great Google Font Combintations You Can Copy" by Joshua Johnson
+http://designshack.net/articles/css/10-great-google-font-combinations-you-can-copy/
+Originally from:
+https://www.google.com/fonts/
+*/
+* {
+    font-family: 'Molengo', Georgia, Times, serif;
+}
+
+p {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+h2 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+h3 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+h4 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+h5 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h6 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+h1 {
+    font-family: 'Molengo', Georgia, Times, serif;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.center-parent {
+  position: relative;
+}
+.center-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+CSS modified from "TWBSColor" by Samuel Marchal
+http://work.smarchal.com/twbscolor/
+*/
+
+.navbar-theme {
+  background-color: #dff0d8;
+  border-color: #4c9b46;
+}
+.navbar-theme .navbar-brand {
+  color: #3c763d;
+}
+.navbar-theme .navbar-brand:hover, .navbar-theme .navbar-brand:focus {
+  color: #84e4cf;
+}
+.navbar-theme .navbar-text {
+  color: #3c763d;
+}
+.navbar-theme .navbar-nav > li > a {
+  color: #3c763d;
+}
+.navbar-theme .navbar-nav > li > a:hover, .navbar-theme .navbar-nav > li > a:focus {
+  color: #84e4cf;
+}
+.navbar-theme .navbar-nav > .active > a, .navbar-theme .navbar-nav > .active > a:hover, .navbar-theme .navbar-nav > .active > a:focus {
+  color: #84e4cf;
+  background-color: #4c9b46;
+}
+.navbar-theme .navbar-nav > .open > a, .navbar-theme .navbar-nav > .open > a:hover, .navbar-theme .navbar-nav > .open > a:focus {
+  color: #84e4cf;
+  background-color: #4c9b46;
+}
+.navbar-theme .navbar-toggle {
+  border-color: #4c9b46;
+}
+.navbar-theme .navbar-toggle:hover, .navbar-theme .navbar-toggle:focus {
+  background-color: #4c9b46;
+}
+.navbar-theme .navbar-toggle .icon-bar {
+  background-color: #3c763d;
+}
+.navbar-theme .navbar-collapse,
+.navbar-theme .navbar-form {
+  border-color: #3c763d;
+}
+.navbar-theme .navbar-link {
+  color: #3c763d;
+}
+.navbar-theme .navbar-link:hover {
+  color: #84e4cf;
+}
+
+@media (max-width: 600px) {
+  .navbar-theme .navbar-nav .open .dropdown-menu > li > a {
+    color: #3c763d;
+  }
+  .navbar-theme .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-theme .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #84e4cf;
+  }
+  .navbar-theme .navbar-nav .open .dropdown-menu > .active > a, .navbar-theme .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-theme .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #84e4cf;
+    background-color: #4c9b46;
+  }
+}
+
+.btn-mod-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-mod-success:focus,
+.btn-mod-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.btn-mod-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-mod-success:active,
+.btn-mod-success.active,
+.open > .dropdown-toggle.btn-mod-success {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-mod-success:active:hover,
+.btn-mod-success.active:hover,
+.open > .dropdown-toggle.btn-mod-success:hover,
+.btn-mod-success:active:focus,
+.btn-mod-success.active:focus,
+.open > .dropdown-toggle.btn-mod-success:focus,
+.btn-mod-success:active.focus,
+.btn-mod-success.active.focus,
+.open > .dropdown-toggle.btn-mod-success.focus {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+.btn-mod-success:active,
+.btn-mod-success.active,
+.open > .dropdown-toggle.btn-mod-success {
+  background-image: none;
+}
+
+.panel-success {
+  border-color: #d6e9c6;
+
+}
+.panel-success > .panel-heading {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #d6e9c6;
+}
+.panel-success > .panel-heading .badge {
+  color: #dff0d8;
+  background-color: #dff0d8;
+}
+.panel-success > .panel-footer + .panel-collapse > .panel-body {
+
+}
